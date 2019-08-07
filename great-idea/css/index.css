@@ -71,11 +71,12 @@ h1, h2, h3, h4, h5 {
 }
 
 header{
-	display:flex;
+	/* display:flex; */
 	margin-left:20px;
 }
 
 nav{
+	display:inline-block;
 	margin-left: 30px;
 	margin-right:100px;
 	margin-top:40px;
@@ -83,7 +84,7 @@ nav{
 }
 
 nav a{
-
+	/* display:inline-block; */
 	margin-left: 25px;
 	margin-right:25px;
 	text-decoration:none;
@@ -225,8 +226,11 @@ footer{
 .flex{
 	display:flex;
 	flex-wrap:wrap;
-	
-	margin-left:130px;
+	justify-content: center;
+	margin-top:30px;
+	margin-left:80px;
+	border-bottom: 1px solid black;
+	width:900px;
 
 }
 
@@ -254,3 +258,30 @@ footer{
 	border-radius: 5px;	
 
 }
+
+.final{
+	width:900px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+	margin-left:80px;
+}
+
+.sfa{
+
+width:400px;
+
+}
+
+.sfa p{
+
+	margin-bottom: 15px;
+}
+
+.ending{
+	margin-top: 80px;
+	text-align: center;
+	width:800px;
+
+}
+
